@@ -14,5 +14,6 @@ The purpose of this HW assignment was to design a Portfolio that utilizes Bootst
 
 # Update 5/23/2020
 
-* Added more skills 
+* Add CSS styling 
+* Added more skills to profile 
 * Fixed links in portfolio 
