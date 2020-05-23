@@ -11,3 +11,8 @@
 # Description
 
 The purpose of this HW assignment was to design a Portfolio that utilizes Bootstrap, CSS and Html to create a responsive and vibrant website. This webite will be updated as I progress throughout the program to fully display my skills and coding techniques.
+
+# Update 5/23/2020
+
+* Added more skills 
+* Fixed links in portfolio 
