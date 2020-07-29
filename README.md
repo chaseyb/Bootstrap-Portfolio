@@ -1,4 +1,4 @@
-# 02 Bootstrap-Portfolio
+# My Portfolio
 This page displays information about myself and the work I've accomplished.
 
 ![GitHub language count](https://img.shields.io/github/languages/count/chaseyb/note-taker)
