@@ -26,6 +26,7 @@ The purpose of this HW assignment was to design a Portfolio that utilizes Bootst
 
 # Updates 
 
+<<<<<<< HEAD
 * Last Updated on July 28th, 2020.
 * Completely updated UI/UX layout  
 * Updated current skills and work 
@@ -44,3 +45,12 @@ The purpose of this HW assignment was to design a Portfolio that utilizes Bootst
   * <chase.b.johnson@gmail.com>
 
   <img src="https://github.com/Chaseyb.png" alt="GitHub Profile Pic" width="150" height="150">
+=======
+The purpose of this HW assignment was to design a Portfolio that utilizes Bootstrap, CSS and Html to create a responsive and vibrant website. This webite will be updated as I progress throughout the program to fully display my skills and coding techniques.
+
+# Update 5/23/2020
+
+* Add CSS styling 
+* Added more skills to profile 
+* Fixed links in portfolio 
+>>>>>>> b0c1124f0ab37c2551b3577bbb39933f1f467d48
