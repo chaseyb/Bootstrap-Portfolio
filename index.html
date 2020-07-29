@@ -1,84 +1,202 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <!-- CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-<body>
-  <body style="background-image: url(assets/images/gradient-green-blue.jpg">
-    <div id="app" class="container">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-      <!-- Start Nav -->
-      <nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
-        <div class="container-fluid">
-          <a class="navbar-brand text-info" href="https://github.com/chaseyb" target="_blank">Chase Johnson</a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <div class="navbar-nav ml-auto">
-                <a class="nav-link active text-info" href="index.html"><strong>About</strong></a>
-                <a class="nav-link text-info" href="portfolio.html">Portfolio</a>
-                <a class="nav-link text-info" href="contact.html">Contact</a>
-              </div>
+        <title>Professional Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Chase</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
             </nav>
-      <!-- End Nav -->
-    
-      <!-- Main Bio -->
-      <div class="row mt-4">
-        <div class="col-sm-7 m-2">
-          <div class="card p-2">
-            <div class="card-body">
-              <h3 class="text-info">About Me</h3>
-              <hr>
-              <div class="row">
-                  <div class="col-sm-4">
-                    <img src="./assets/images/Bio-pic.jpeg" alt="Placeholder" class="img-thumbnail">
-                  </div>
-                <div class="col m-2 lead">Hello, my name is Chase and I'm an aspiring Fullstack developer practicing social distancing in Sacramento, CA. In  my free time I enjoy being outside and spending time with my family.</p>
-              </div>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Chase Johnson</span><br> Full Stack Developer</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/chasebjohnson" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/chaseyb" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/profile.jpg" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about-me.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <p class="about__text">Hello, my name is Chase and I'm an aspiring Fullstack developer practicing social distancing in Sacramento, CA. In  my free time I enjoy being outside and playing video games.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fas fa-database skills__icon'></i>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__db">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/skills.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="http://emoji-runner.herokuapp.com/" target="_blank">
+                        <img src="assets/img/emoji-runner-game.png"></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://eat-a-burger-5000.herokuapp.com/" target="_blank">
+                            <img src="assets/img/burgerapp.png"></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://chaseyb.github.io/COVID-COMMU-DASH/" target="_blank">
+                            <img src="assets/img/COV-19-Tracker.png"></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://chaseyb.github.io/Work-Day-Scheduler/" target="_blank">
+                            <img src="assets/img/Weekly-Planner.png"></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://chaseyb.github.io/Code-Quiz/" target="_blank">
+                            <img src="assets/img/Coding-Quiz.png"></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://chaseyb.github.io/Word-Guess-Game/" target="_blank">
+                            <img src="assets/img/Word-Guessing-Game.jpg"></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Chase</p>
+            <div class="footer__social">
+                <a href="https://github.com/chaseyb" class="footer__icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/chaseyb" class="footer__icon" target="_blank"><i class='bx bxl-github' ></i></a>
             </div>
-          </div>
-        </div>
-      </div>
+            <p>&#169; 2020 Chase Johnson</p>
+        </footer>
 
-      <!-- Page Spacing-->
-      <div class="col">
-      </div>
-      
-      <!-- Skills -->
-      <div class="col-sm-4 m-2">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title text-info">Skills</h4>
-                <hr>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Bootstrap</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>APIS</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      </div>
-  
-    <!-- Page Spacing-->
-    <Br>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-  </body>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        
+        <!--===== FONT AWESOME JS =====-->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </body>
 </html>
