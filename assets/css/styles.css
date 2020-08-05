@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
@@ -216,8 +217,7 @@ img{
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 295px;
-  border-radius: .5rem;
+  width: 260px;
 }
 
 /*BUTTONS*/
@@ -415,7 +415,7 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
+    width: 400px;
     bottom: 15%;
   }
 

@@ -73,7 +73,7 @@ a{
 img{
     max-width: 100%;
     height: auto;
-    display: block; // borra los espacios en blanco
+    display: block;
 }
 
 /*===== Main CSS ===== */
@@ -436,7 +436,7 @@ img{
             }
         }
         &__img{
-            width: 457px;
+            width: 260px;
             bottom: 15%;
         }
     }
@@ -449,7 +449,7 @@ img{
         }
         &__img{
             & img{
-                width: 300px;
+                width: 260px;
             }
         }
     }
@@ -485,6 +485,7 @@ img{
     .home{
         &__img{
             right: 10%;
+            width: 260px;
         }
     }
 }
