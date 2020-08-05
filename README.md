@@ -1,6 +1,9 @@
 # My Portfolio
 This page displays information about myself and the work I've accomplished.
 
+[Website Link](https://chaseyb.github.io/My-Portfolio/ "Website Link")
+
+
 ![GitHub language count](https://img.shields.io/github/languages/count/chaseyb/note-taker)
 ![GitHub top language](https://img.shields.io/github/languages/top/chaseyb/note-taker)
 
