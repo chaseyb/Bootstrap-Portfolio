@@ -21,11 +21,10 @@ The purpose of this HW assignment was to design a Portfolio that utilizes HTML, 
 
   # Install
 
-* open gitbash on Windows or Terminal on Mac
-   
-* git clone https://github.com/chaseyb/Bootstrap-Portfolio.git
-
-* enjoy
+* Git Clone https://github.com/chaseyb/React-portfolio 
+* `npm install`
+* `npm start`
+* Enjoy on http://localhost:3000/
 
 # Updates 
 
